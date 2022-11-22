@@ -3,10 +3,11 @@
     flex-direction: column;
 }
 
+
 .columns img {
     width: 100%;
 }
-
+  
 @media (min-width: 900px) {
     .columns > div {
         display: flex;
