@@ -9,7 +9,12 @@
 }
 
 .accordion .item-title {
-    
+    cursor: pointer;
+    padding: 12px;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .accordion .item-title:after {
