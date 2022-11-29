@@ -18,4 +18,3 @@ function decorateAccordion(el) {
   els.forEach((el) => {
     decorateAccordion(el);
   });
-  view raw
