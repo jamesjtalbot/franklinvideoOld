@@ -1,16 +1,15 @@
 .accordion {
+}
+
+.accordion .item-title.open {
+    background: #dddddd;
     background: #EFEFEF;
     border: 1px solid #dddddd;
     border-radius: 6px;
 }
 
 .accordion .item-title {
-    cursor: pointer;
-    padding: 12px;
-    border-bottom: 1px solid #dddddd;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
 .accordion .item-title:after {
@@ -22,10 +21,6 @@
     transform: rotate(-45deg) translateY(-50%);
     transition: transform .1s ease;
     content: '';
-}
-
-.accordion .item-title.open {
-    background: #dddddd;
 }
 
 .accordion .item-title.open::after {
